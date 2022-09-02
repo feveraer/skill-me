@@ -163,7 +163,7 @@ function App() {
                 </h1>
             </Row>
             <Row className="mt-2">
-                <Col className="col-5">
+                <Col className="col-12 col-md-6">
                     <Box sx={{
                         height: 400, width: '100%', '& .actions': {
                             color: 'text.secondary',
@@ -187,7 +187,7 @@ function App() {
                                   experimentalFeatures={{newEditingApi: true}}/>
                     </Box>
                 </Col>
-                <Col className="col-7">
+                <Col className="col-12 col-md-6">
                     <RadarChart
                         rawData={rows}
                         skillPercentage="percentage"
