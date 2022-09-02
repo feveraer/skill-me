@@ -100,7 +100,7 @@ function App() {
         {
             field: 'name',
             headerName: 'Name',
-            width: 400,
+            width: 200,
             editable: true,
         },
         {
